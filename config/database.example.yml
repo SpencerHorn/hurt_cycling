@@ -1,0 +1,18 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+
+development:
+  <<: *default
+  database: hurt_cycling_development
+
+test:
+  <<: *default
+  database: hurt_cycling_test
+
+production:
+  <<: *default
+  database: hurt_cycling_production
+  username: hurt_cycling
+  password: <%= ENV['hurt_cycling_DATABASE_PASSWORD'] %>
