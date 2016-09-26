@@ -1,7 +1,7 @@
-app_name:
+app_name: hurt_cycling
 
 # Rails App Configs
-be_app_repo:
+be_app_repo: git@github.com:smashingboxes/hurt_cycling.git
 
 # HTML/JS App Configs
 # Uncomment if you want to deploy a JS/HTML App

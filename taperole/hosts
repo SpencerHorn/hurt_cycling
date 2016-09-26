@@ -1,6 +1,9 @@
 # Base Example
-[omnibox]
-0.0.0.0 be_app_env=SOME_ENV be_app_branch=SOME_BRANCH 
+[production]
+104.131.10.34 be_app_env=production be_app_branch=master
+
+[omnibox:children]
+production
 
 # Vagrant Example
 # [omnibox]
