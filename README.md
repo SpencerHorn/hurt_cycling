@@ -11,6 +11,6 @@
 
 ## Environments
 
-| Name | IP | Notes |
+| Name | IP Address | Notes |
+| ---- | ---------- | ----- |
 | Production | 104.131.10.34 | This is on Spencer's DO account. It's the only deployed environment right now. |
-
