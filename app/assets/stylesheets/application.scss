@@ -1,0 +1,14 @@
+// 1. Vendor
+@import "1_vendor/normalize";
+
+// 2. Utilities
+@import "2_utilities/variables";
+
+// 3. Base
+@import "3_base/base";
+@import "3_base/typography";
+
+// 4. Pages
+@import "4_pages/header";
+@import "4_pages/footer";
+@import "4_pages/coming_soon";

@@ -1,0 +1,14 @@
+header {
+  text-align: center;
+  padding: $base-spacing-sm;
+
+  .header__item {
+    margin: 0;
+    padding: $base-spacing-sm;
+  }
+
+  img {
+    height: $base-spacing-xxl;
+    width: auto;
+  }
+}
